@@ -3,11 +3,6 @@ plan:
 - title: Introduction
   statement: markdowns/introduction.md
 projects:
-  contains:
-    root: /contains
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
   tassement:
     root: /tassement
     runner:
