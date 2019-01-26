@@ -6,6 +6,8 @@ plan:
   statement: markdowns/ex1.md
 - title: Exercice 2
   statement: markdowns/ex2.md
+- title: Exercice 3
+  statement: markdowns/ex3.md
 projects:
   tassement:
     root: /tassement
