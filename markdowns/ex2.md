@@ -14,8 +14,8 @@ struct contact {
 	char prenom[20];
 	char adresse[100];
 	char numero[10];
-	int CP;
 	char localite[50];
+	int CP;
 	struct date naissance;
 }
 ```
