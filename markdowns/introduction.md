@@ -1,7 +1,5 @@
 # Rappel
 
-Les structures....
-
 ## Définition
 
 Le mot-clé `struct` est utilisé pour définir une structure. Un exemple est donnée ci-après. 
