@@ -20,11 +20,12 @@ struct contact {
 }
 ```
 
-Il faut écrire la fonction affiche contact. Celle-ci doit afficher la structure contact qui lui est passée en argument en respectant le format suivant :
+Il faut écrire la fonction `affiche_contact`. Celle-ci doit afficher la structure contact qui lui est passée en argument en respectant le format suivant :
 
 ```html
 Dupond Jean
 rue des allouettes 502
 1000 Bruxelles
-Naissance: 06/12/1945
+Date de naissance: 06/12/1945
 ```
+
