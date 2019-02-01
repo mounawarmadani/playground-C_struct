@@ -7,7 +7,7 @@ int main() {
 	
   scanf("%s",personne.nom);
   scanf("%s",personne.prenom);
-  fgets(personne.adresse,50,sdtin);
+  fgets(personne.adresse,50,stdin);
   scanf("%s",personne.numero); 
   scanf("%s",personne.localite);
   scanf("%d",&(personne.CP));
