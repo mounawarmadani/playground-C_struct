@@ -23,7 +23,7 @@ struct contact {
 Il faut écrire une fonction `compare_contact`. Cette fonction doit comparer les 2 structures contact qui lui sont passées en argument. Elle renvoie :
 - 1 si la première structure est la plus petite.
 - 0 si les structure sont égales.
-- -1 si la prmière structure est la plus grande.
+- -1 si la première structure est la plus grande.
 
 L'ordre des structures est déterminé par :
 1. l'ordre alphabétique des noms
