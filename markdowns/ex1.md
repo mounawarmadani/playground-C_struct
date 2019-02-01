@@ -28,5 +28,21 @@ rue des allouettes 502
 1000 Bruxelles
 Date de naissance: 06/12/1945
 ```
+**Remarque:** Pour affichage de la date les zéros initiaux pour les jours et mois doivent apparaître. La syntaxe suivant peut être utilisée dans le `printf` : `%02d`. Cela signifie qu'on affiche au moins 2 caractères qui sont des 0.
+
+```C runnable
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+	
+	printf("%d05\n",123);
+	printf("%d02\n",5);
+	printf("%d02<n",12);
+
+	return 0
+}
+
+```
 
 @[Affiche contact]({"stubs": ["aff_struct.h"],"command": "sh /project/target/run.sh test_aff_struct","project": "aff_struct"})
