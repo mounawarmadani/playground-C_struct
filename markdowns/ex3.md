@@ -37,14 +37,14 @@ Si nous avons des structures contenant
 1. Dupond Jean 15/08/1965
 1. Dupond Jean 15/08/1965
 	
-La structure 1 vient avant la structure 2.
+La structure 1 et la structure 2 sont égales.
 
 Si nous avons des structures contenant 
 
 1. Dupond Jean 15/08/1975
 1. Dupond Jean 15/08/1965
 	
-La structure 1 vient avant la structure 2.
+La structure 2 vient avant la structure 1.
 
 Si nous avons des structures contenant 
 

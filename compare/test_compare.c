@@ -28,11 +28,14 @@ int main(void) {
     int ok=1;
 	
 	struct contact liste[] = {
-								{"Jean","Dupond","","","",0,{12,12,2012}},
-								{"Jean","Dupond","","","",0,{12,12,2012}}
+								{"Dupond","Jean","","","",0,{12,12,2012}},
+								{"Dupond","Jean","","","",0,{12,12,2012}},
+								{"Dupond","Jean","","","",0,{15,8,1975}},
+								{"Dupond","Albert","","","",0,{12,12,2012}},
+								{"Durand","Jean","","","",0,{12,12,2012}}
 							};
 	
-    for (i=0;i<2;i++) {		
+    for (i=0;i<1;i++) {		
 		if (_compare_contact(liste[i],liste[i+1]) == compare_contact(liste[i],liste[i+1])) {
             ok = ok && 1;
         }
