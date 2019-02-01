@@ -35,7 +35,7 @@ Les données doivent respecter les conditions suivantes :
 - Il est conseillé d'écrire des fonctions supplémentaires pour tester les valeurs.
 - La fonction `scanf` lors de la saisie d'une chaîne de caractères coupe entre les espaces.
 - Penser à l'utilisation de `fgets` pour saisir une chaîne.
-- La bibliothèque `ctype.h` renferme des fonctions utiles pour réaliser des tests
+- La bibliothèque `ctype.h` renferme des fonctions utiles pour réaliser des tests : [voir les références](https://www.tutorialspoint.com/c_standard_library/ctype_h.htm)
 - Votre fonction de saisie ne doit comporter **aucun** affichage même pour poser la question à l'utilisateur.
 
 @[Encode contact]({"stubs": ["encode_struct.h"],"command": "sh /project/target/run.sh test_encode_struct","project": "encode_struct"})
