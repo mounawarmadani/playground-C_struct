@@ -19,3 +19,8 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest      
+  compare:
+    root: /compare
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest  

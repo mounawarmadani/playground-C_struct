@@ -53,5 +53,5 @@ Si nous avons des structures contenant
 	
 La structure 2 vient avant la structure 1.
 
-
+@[Compare contact]({"stubs": ["compare.h"],"command": "sh /project/target/run.sh test_compare","project": "compare"})
 
