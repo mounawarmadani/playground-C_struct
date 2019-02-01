@@ -10,7 +10,7 @@ int _compare_contact(struct contact c1,struct contact c2)
 	int date1,date2;
 	
 	if (ret=strcmp(c1.nom,c1.prenom)==0) {
-		if (ret=strcmp(c1.nom,c1.prenom)==0) {
+		if (ret=strcmp(c1.prenom,c1.prenom)==0) {
 			date1 = c1.naissance.annee*1000+c1.naissance.mois*100+c1.naissance.jour;
 			date2 = c2.naissance.annee*1000+c2.naissance.mois*100+c2.naissance.jour;
 			if (date1<date2) ret=1;
