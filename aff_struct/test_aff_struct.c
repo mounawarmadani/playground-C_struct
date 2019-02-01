@@ -11,6 +11,9 @@ int main() {
   scanf("%s",personne.numero); 
   scanf("%s",personne.localite);
   scanf("%d",&(personne.CP));
+  
+  printf("->%s ->%d",personne.numero, personne.CP);
+  
   scanf("%d",&(personne.naissance.jour));
   scanf("%d",&(personne.naissance.mois));
   scanf("%d",&(personne.naissance.annee));
