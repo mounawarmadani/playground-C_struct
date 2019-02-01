@@ -4,10 +4,10 @@
 
 int main() {
   struct contact personne;
-
+	
   scanf("%s",personne.nom);
   scanf("%s",personne.prenom);
-  scanf("%s",personne.adresse);
+  fgets(personne.adresse,50,STDIN);
   scanf("%s",personne.numero); 
   scanf("%s",personne.localite);
   scanf("%d",&(personne.CP));
