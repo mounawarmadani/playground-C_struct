@@ -22,6 +22,8 @@ struct contact {
 
 Il faut écrire la fonction `encode_contact`. Celle-ci doit permettre l'encodage d'une structure contact en vérifiant les données fournie par l'utilisateur.
 
+
+## Contraintes sur les données
 Les données doivent respecter les conditions suivantes :
 - Le nom doit uniquement être composé des caractères de A à Z et de a à z.
 - Le prénom doit uniquement être composé des caractères de A à Z et de a à z.
