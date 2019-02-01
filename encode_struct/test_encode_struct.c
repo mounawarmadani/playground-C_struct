@@ -7,7 +7,7 @@ void affiche_contact(struct contact personne) {
 	printf("%s %s\n",personne.nom, personne.prenom);
 	printf("%s %s\n",personne.adresse, personne.numero);
 	printf("%d %s\n",personne.CP, personne.localite);
-	printf("Date de naissance: %d/%d/%d\n",personne.naissance.jour, personne.naissance.mois,personne.naissance.annee);
+	printf("Date de naissance: %02d/%02d/%d\n",personne.naissance.jour, personne.naissance.mois,personne.naissance.annee);
 }
 
 int main() {
