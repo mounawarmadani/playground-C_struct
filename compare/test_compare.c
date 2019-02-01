@@ -28,9 +28,9 @@ int main(void) {
     int ok=1;
 	
 	struct contact liste[] = {
-								{"Jean","Dupond","","","",0,{12,12,2012}}
 								{"Jean","Dupond","","","",0,{12,12,2012}},
-							};
+								{"Jean","Dupond","","","",0,{12,12,2012}}
+							}
 	
     for (i=0;i<2;i++) {		
 		if (_compare_contact(liste[i],liste[i+1]) == compare_contact(liste[i],liste[i+1])) {
