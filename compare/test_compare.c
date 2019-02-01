@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "prime.h"
+#include "compare.h"
 
 int _is_prime(int nbr)
 {
