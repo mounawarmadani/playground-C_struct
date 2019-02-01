@@ -11,9 +11,13 @@ int main() {
   scanf("%s",personne.numero); 
   scanf("%s",personne.localite);
   scanf("%d",&(personne.CP));
-  scanf("%d/%d/%d",&(personne.naissance.jour),&(personne.naissance.mois),&(personne.naissance.annee));
+  scanf("%d",&(personne.naissance.jour));
+  scanf("%d",&(personne.naissance.mois));
+  scanf("%d",&(personne.naissance.annee));
+  //scanf("%d/%d/%d",&(personne.naissance.jour),&(personne.naissance.mois),&(personne.naissance.annee));
   
   affiche_contact(personne);
 
+  printf("\n");
   return 0;
 }
