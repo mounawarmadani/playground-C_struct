@@ -9,8 +9,8 @@ plan:
 - title: Exercice 3
   statement: markdowns/ex3.md
 projects:
-  tassement:
-    root: /tassement
+  aff_struct:
+    root: /aff_struct
     runner:
       name: techio/cmake-gcc-runner
       version: latest
