@@ -30,3 +30,5 @@ Les données doivent respecter les conditions suivantes :
 - Le code postal est une valeur numérique comprise entre 1000 et 9999.
 - La localité doit uniquement être composé des caractères de A à Z et de a à z.
 - La date de naissance doit être une date valide.
+
+@[Encode contact]({"stubs": ["encode_struct.h"],"command": "sh /project/target/run.sh test_encode_struct","project": "encode_struct"})
