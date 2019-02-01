@@ -1,41 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <string.h>
+
 #include "compare.h"
 
-int _is_prime(int nbr)
-{
-	int i, sqrt_nbr, premier=1;
-
-	if (nbr%2==0 && nbr!=2) {
-		premier=0;
+int _compare_contact(struct contact c1,struct contact c2)
+{                                                              
+	int ret;
+	int date1,date2;
+	
+	if (ret=strcmp(c1.nom,c1.prenom)==0) {
+		if (ret=strcmp(c1.nom,c1.prenom)==0) {
+			date1 = c1.naissance.annee*1000+c1.naissance.mois*100+c1.naissance.jour;
+			date2 = c2.naissance.annee*1000+c2.naissance.mois*100+c2.naissance.jour;
+			if (date1<date2) ret=1;
+			else if (date1>date2) ret=-1;
+			else ret=0;
+		}
 	}
-	else {
-		// sqrt_nbr = (int)sqrt(nbr) + 1;
-		sqrt_nbr = nbr/2;
-		i=3;
-		while (i<=sqrt_nbr && nbr%i!=0) i=i+2;
+	
 
-		if (nbr%i==0 && nbr!=i)
-			premier=0;
-		else
-			premier=1;
-	}	
-	return premier;
+	return ret;
 }
 
 int main(void) {
 	int i;
-	int prime_test[20]={1,2,3,4,5,6,7,8,9,10,11,12,71,100,121,1013,5041,6241,7919,69169};
     int ok=1;
 	
-    for (i=0;i<20;i++) {		
-		if (_is_prime(prime_test[i]) == is_prime(prime_test[i])) {
+	struct contact liste[] = {
+								{"Jean","Dupond","","","",0,{12,12,2012}}
+								{"Jean","Dupond","","","",0,{12,12,2012}},
+							}
+	
+    for (i=0;i<2;i++) {		
+		if (_compare_contact(liste[i],liste[i+1]) == compare_contact(liste[i],liste[i+1])) {
             ok = ok && 1;
         }
         else {
             ok = ok && 0;
-            printf("TECHIO> message --channel \"TEST ERREUR\" 'Error function fail test (%d)'\n",prime_test[i]);
+            printf("TECHIO> message --channel \"TEST ERREUR\" 'Error function fail test %d.'\n",i);
         }
     }
         
