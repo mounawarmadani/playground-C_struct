@@ -1,3 +1,3 @@
-int compare_contact(/*Completer les paramètres*/) {
+int is_prime(/*Completer les paramètres*/) {
 	//Ecrire le code de la fonction
 }
