@@ -33,13 +33,15 @@ int main(void) {
 								{"Durand","Jean","","","",0,{12,12,2012}}
 							};
 	
-    for (i=0;i<5;i++) {		
+    for (i=0;i<4;i++) {		
+	    printf("TECHIO> message --channel \"RAPPORT TEST\" 'Compare (%s %s - %d/%d/%d) and (%s %s - %d/%d/%d).'\n",liste[i].nom,liste[i].prenom,liste[i].naissance.jour,liste[i].naissance.mois,liste[i].naissance.annee,liste[i+1].nom,liste[i+1].prenom,liste[i+1].naissance.jour,liste[i+1].naissance.mois,liste[i+1].naissance.annee);
 		if (_compare_contact(liste[i],liste[i+1]) == compare_contact(liste[i],liste[i+1])) {
             ok = ok && 1;
+			printf("TECHIO> message --channel \"RAPPORT TEST\" 'Succes function test.'\n");
         }
         else {
             ok = ok && 0;
-            printf("TECHIO> message --channel \"TEST ERREUR\" 'Error function fail test %d.'\n",i);
+            printf("TECHIO> message --channel \"RAPPORT TEST\" 'Error function fail test.'\n");
         }
     }
         
