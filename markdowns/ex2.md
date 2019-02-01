@@ -31,4 +31,11 @@ Les données doivent respecter les conditions suivantes :
 - La localité doit uniquement être composé des caractères de A à Z et de a à z.
 - La date de naissance doit être une date valide.
 
+## Notes complémentaires
+- Il est conseillé d'écrire des fonctions supplémentaires pour tester les valeurs.
+- La fonction `scanf` lors de la saisie d'une chaîne de caractères coupe entre les espaces.
+- Penser à l'utilisation de `fgets` pour saisir une chaîne.
+- La bibliothèque `ctype.h` renferme des fonctions utiles pour réaliser des tests
+- Votre fonction de saisie ne doit comporter **aucun** affichage même pour poser la question à l'utilisateur.
+
 @[Encode contact]({"stubs": ["encode_struct.h"],"command": "sh /project/target/run.sh test_encode_struct","project": "encode_struct"})
