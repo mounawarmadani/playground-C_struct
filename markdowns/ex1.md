@@ -29,4 +29,4 @@ rue des allouettes 502
 Date de naissance: 06/12/1945
 ```
 
-@[Affiche contact]({"stubs": ["aff_struct.h"],"command": "sh /project/target/run.sh aff_struct","project": "aff_struct"})
+@[Affiche contact]({"stubs": ["aff_struct.h"],"command": "sh /project/target/run.sh aff_struct","project": "test_aff_struct"})
