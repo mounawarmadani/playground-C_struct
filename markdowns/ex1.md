@@ -36,13 +36,12 @@ Date de naissance: 06/12/1945
 
 int main() {
 	
-	printf("%d05\n",123);
-	printf("%d02\n",5);
-	printf("%d02<n",12);
+	printf("%05d\n",123);
+	printf("%02d\n",5);
+	printf("%02d\n",12);
 
-	return 0
+	return 0;
 }
-
 ```
 
 @[Affiche contact]({"stubs": ["aff_struct.h"],"command": "sh /project/target/run.sh test_aff_struct","project": "aff_struct"})
