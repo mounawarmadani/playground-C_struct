@@ -6,7 +6,7 @@ struct date {
 	int jour;
 	int mois;
 	int annee;
-}
+};
 
 struct contact {
 	char nom[20];
@@ -16,7 +16,7 @@ struct contact {
 	char localite[50];
 	int CP;
 	struct date naissance;
-}
+};
 
 int main() {
   struct contact personne;

@@ -7,7 +7,7 @@ struct date {
 	int jour;
 	int mois;
 	int annee;
-}
+};
 
 struct contact {
 	char nom[20];
@@ -17,7 +17,7 @@ struct contact {
 	char localite[50];
 	int CP;
 	struct date naissance;
-}
+};
 ```
 
 Il faut écrire la fonction `affiche_contact`. Celle-ci doit afficher la structure contact qui lui est passée en argument en respectant le format suivant :
