@@ -22,6 +22,8 @@ struct contact {
 
 Il faut écrire la fonction `encode_contact`. Celle-ci doit permettre l'encodage d'une structure contact en vérifiant les données fournie par l'utilisateur.
 
+
+## Contraintes sur les données
 Les données doivent respecter les conditions suivantes :
 - Le nom doit uniquement être composé des caractères de A à Z et de a à z.
 - Le prénom doit uniquement être composé des caractères de A à Z et de a à z.
@@ -30,3 +32,12 @@ Les données doivent respecter les conditions suivantes :
 - Le code postal est une valeur numérique comprise entre 1000 et 9999.
 - La localité doit uniquement être composé des caractères de A à Z et de a à z.
 - La date de naissance doit être une date valide.
+
+## Notes complémentaires
+- Il est conseillé d'écrire des fonctions supplémentaires pour tester les valeurs.
+- La fonction `scanf` lors de la saisie d'une chaîne de caractères coupe entre les espaces.
+- Penser à l'utilisation de `fgets` pour saisir une chaîne.
+- La bibliothèque `ctype.h` renferme des fonctions utiles pour réaliser des tests : [voir les références](https://www.tutorialspoint.com/c_standard_library/ctype_h.htm)
+- Votre fonction de saisie ne doit comporter **aucun** affichage même pour poser la question à l'utilisateur.
+
+@[Encode contact]({"stubs": ["encode_struct.h"],"command": "sh /project/target/run.sh test_encode_struct","project": "encode_struct"})
