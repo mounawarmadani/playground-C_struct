@@ -39,5 +39,13 @@ Les données doivent respecter les conditions suivantes :
 - Penser à l'utilisation de `fgets` pour saisir une chaîne.
 - La bibliothèque `ctype.h` renferme des fonctions utiles pour réaliser des tests : [voir les références](https://www.tutorialspoint.com/c_standard_library/ctype_h.htm)
 - Votre fonction de saisie ne doit comporter **aucun** affichage même pour poser la question à l'utilisateur.
+- Les données sont fournies dans cet ordre à votre programme :
+	1. Nom
+	1. Prénom
+	1. rue
+	1. Numéro
+	1. Localité
+	1. Code postal
+	1. Date de naissance
 
 @[Encode contact]({"stubs": ["encode_struct.h"],"command": "sh /project/target/run.sh test_encode_struct","project": "encode_struct"})
